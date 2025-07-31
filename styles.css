@@ -30,19 +30,43 @@
  .banner{
   justify-content: space-between;
  }
- .logo {
+ /*.logo {
   display: grid;
   grid-template-columns:(7, 1fr);
-  align-items: center;
   
+  
+ }*/
+ body{
+  align-items: center;
+  margin-left: 100px;
+ }
+ .logo{
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  height: 110px;
+  margin: 0 auto;
  }
  .products-card{
   
   border:2px solid rgba(170, 170, 170, 1);
-  gap:30px;
+  gap:50px;
+  padding:30px;
+  width:300px ;
+  height:400px ;
+  border-radius:20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px 0 rgba(170, 170, 170, 1);
   
  }
- .card-container{
+ .products-cards-details{
+  
   display: grid;
-  grid-template-columns: (3,1fr);
+  grid-template-columns: repeat(3,1fr);
+ }
+ .logos{
+  display:flex;
+  align-items: center;
+  justify-content: center;
  }
